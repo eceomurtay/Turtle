@@ -1,9 +1,15 @@
+# Rainbow flower
+
 import turtle
 import colorsys
 
 t = turtle.Turtle()
 
 turtle.Screen().bgcolor("black")
+turtle.title("Flower")
+root = turtle.Screen()._root
+root.iconbitmap("./flo.ico")
+
 t.pensize(1)
 h = 0.0
 turtle.tracer(2)
